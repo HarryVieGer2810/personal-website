@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Hoang Bui Viet Toan</h1>
+                <ul>
+                    <li><a href="">Home Page</a></li>
+                    <li><a href="">Favourite Places</a></li>
+                    <li><a href="">Favourite Things</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UTS university student</p>
+                <h1>Hi, I'm <span>Toan</span> from Vietnam.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="img/hbvt.jpeg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat necessitatibus doloremque, rerum praesentium enim nemo. Excepturi molestiae nobis, molestias quisquam laborum cum est labore nam inventore, officia, atque iure!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('tab-1')">Tab 1</p>
+                        <p class="tab-links" onclick="openTab('tab-2')">Tab 2</p>
+                        <p class="tab-links" onclick="openTab('tab-3')">Tab 3</p>
+                    </div>
+                    <div id="tab-1" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                        </ul>
+                    </div>
+                    <div id="tab-2" class="tab-contents">
+                        <ul>
+                            <li><span>Age:</span><br>19</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                        </ul>
+                    </div>
+                    <div id="tab-3" class="tab-contents">
+                        <ul>
+                            <li><span>DOB:</span><br>19 Dec 2004</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                            <li><span>Name:</span><br>Hoang Bui Viet Toan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="js/about-tab.js"></script>
+
+</html>
